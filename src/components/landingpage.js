@@ -4,7 +4,7 @@ import { Grid,Cell } from 'react-mdl';
 class Landing extends Component{
     render(){
         return(
-            <div style={{width:'100%',margin:'auto'}}>
+            <div className="container-fluid">
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src="https://cdn1.iconfinder.com/data/icons/diversity-avatars-volume-01-circles/64/hipster-beard-man-white-512.png" 

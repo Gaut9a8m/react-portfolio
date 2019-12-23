@@ -5,7 +5,7 @@ class Contact extends Component{
     render(){
         return(
             <div className="contact-body">
-                <Grid className="contact-grid">
+                <Grid className="contact-grid container-fluid">
                     <Cell col={6}>
                         <h2>Ashutosh Kumar Singh</h2>
                         <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 

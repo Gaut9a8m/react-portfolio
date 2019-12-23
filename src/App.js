@@ -10,7 +10,7 @@ function App() {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration:'none',color:'white'}} to="/">My Portfolio</Link>} scroll>
             <Navigation>
-                {/* <a href="/">Home</a> */}
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/about">About Me </Link>
@@ -19,6 +19,7 @@ function App() {
         </Header>
         <Drawer className="drawer-color" title={<Link style={{textDecoration:'none',color:'black'}} to="/">My Portfolio</Link>}  >
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/about">About Me </Link>

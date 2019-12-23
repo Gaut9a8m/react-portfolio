@@ -7,14 +7,14 @@ import Skills from './skills';
 class Resume extends Component{
     render(){
         return(
-            <div className="">
+            <div className="container-fluid">
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign:'center'}}>
                             <img src="https://s3-ap-south-1.amazonaws.com/bot-bkt/prod/16560/maleGenericwebsite-2-e1555067523504.png" style={{height:'200px'}}/>
 
                         </div>
-                        <h2 style={{paddingTop:'2em'}}>Ashutosh Kumar Singh</h2>
+                        <h2 style={{paddingTop:'.1em'}}>Ashutosh Kumar Singh</h2>
                         <h4 style={{color:'grey'}}>Programmer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
                         <p>Some random text. Some random textSome random text Some random text Some random text Some random text. Some random text. Some random textSome random text Some random text Some random text Some random text</p>
